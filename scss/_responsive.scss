@@ -1,0 +1,386 @@
+@media (max-width: 1199.98px) {
+    .container {
+      max-width: 960px;
+    }
+
+    .offer__content-wrapper .offer__buttons {
+        width: 40%;
+    }
+
+    .order .order__content-wrapper .order__step:nth-child(n + 2) .order__step-icon::before {
+      content: "....";
+      left: -85px;
+      letter-spacing: 10px;
+    }
+  
+    .order .order__content-wrapper .order__step-description {
+      font-size: 14px;
+    }
+
+    .order .order__content-wrapper .order__step {
+        width: 190px;
+    }
+  
+    .order .order__content-wrapper .order__form .order__form-field {
+      width: 300px;
+      font-size: 16px;
+      &.select {
+        font-size: 16px;
+      }
+      &::placeholder {
+          font-size: 16px;
+      }
+    }
+  
+    .order .order__content-wrapper .order__form .order__form-field .select-wrapper {
+      width: 300px;
+      font-size: 16px;
+    }
+
+    .order .order__content-wrapper .order__form .order__input-wrapper {
+        width: 633px;
+    
+        & label, & span {
+            font-size: 16px;
+        } 
+    }
+
+    .order .order__content-wrapper .order__form .order__form-range {
+        width: 100%;
+    }
+    
+    .order .order__content-wrapper .order__form .order__file-upload,
+    .order .order__content-wrapper .order__form .order__form__submit {
+        width: 300px;
+    }
+
+    .footer .footer__content-wrapper {
+        font-size: 10px;
+    }
+
+    .footer__contacts li:first-child {
+        margin-right: 30px;
+    }
+
+    .footer__content-wrapper a {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header__logo {
+        font-size: 22px;
+    }
+
+    .header__menu ul .header__menu-item a {
+        font-size: 12px;
+    }
+
+    .offer {
+        height: 700px;
+    }
+
+    .offer__content-wrapper h1 {
+        margin: 0;
+        font-size: 36px;
+    }
+
+    .offer__content-wrapper .offer__advantages-list {
+        top: 355px;
+    }
+
+    .offer__content-wrapper .offer__buttons {
+        width: 45%;
+        top: 550px;
+    }
+
+    .order {
+        min-height: 855px;
+    }
+
+    .order .order__content-wrapper {
+        padding: 50px 0;
+    }
+
+    .order .order__content-wrapper h2 {
+        font-size: 30px;
+    }
+
+    .order .order__content-wrapper .order__description {
+        font-size: 16px;
+    }
+
+    .order .order__content-wrapper .order__step:nth-child(n + 2) .order__step-icon::before {
+        content: "..";
+        left: -40px;
+        letter-spacing: 5px;
+    }
+
+    .order .order__content-wrapper .order__form .order__form-field {
+        width: 225px;
+        margin-left: 20px;
+        font-size: 14px;
+        &::placeholder {
+            font-size: 14px;
+        }
+    }
+
+    .order .order__content-wrapper .order__form .order__form-field .select-wrapper {
+        width: 225px;
+        font-size: 14px;
+    }
+
+    .order .order__content-wrapper .order__form .order__input-wrapper {
+        width: 465px;
+    }
+
+    .order .order__content-wrapper .order__form .order__file-upload,
+    .order .order__content-wrapper .order__form .order__form__submit {
+        width: 225px;
+        font-size: 12px;
+    }
+
+    .footer__contacts {
+        flex: 1.2;
+    }
+
+    .footer__contacts li:first-child {
+        margin-right: 15px;
+    }
+
+    .footer__contacts img {
+        margin-right: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .header__menu {
+        display: none;
+    }
+
+    .header__burger-button {
+        display: block;
+    }
+
+    .offer {
+        height: 560px;
+    }
+
+    .offer__content-wrapper h1 {
+        top: 180px;
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    .offer__content-wrapper .offer__advantages-list {
+        top: 285px;
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    .offer__content-wrapper .offer__buttons {
+        top: 435px;
+        width: 60%;
+        
+    }
+
+    .offer__content-wrapper .offer__buttons .offer__button {
+        padding: 12px 35px;
+    }
+
+    .order .order__content-wrapper .order__steps {
+        flex-wrap: wrap;
+        margin-top: 50px;
+    }
+
+    .order .order__content-wrapper .order__step:nth-child(n + 2) .order__step-icon::before {
+        content: "";
+    }
+
+    .order .order__content-wrapper .order__step {
+        margin-bottom: 20px;
+    }
+
+    .order .order__content-wrapper .order__form {
+        margin-top: 20px;
+    }
+
+    .order .order__content-wrapper .order__form .order__form-field {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .order .order__content-wrapper .order__form .order__form-field .select-wrapper {
+        width: 100%;
+    }
+    
+    .order .order__content-wrapper .order__form .order__input-wrapper {
+        width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+
+    .order .order__content-wrapper .order__form .order__file-upload,
+    .order .order__content-wrapper .order__form .order__form__submit {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .copywrite {
+        flex: 1.2;
+    }
+    
+    .footer__contacts, .footer__pay-systems {
+        flex: 1;
+    }
+
+    .footer__pay-systems ul {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-left: 20%;
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+    .footer__contacts ul {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    .footer__contacts li:first-child {
+        margin: 0;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .container {
+        max-width: 100%;
+        padding: 0 15px;
+    }
+
+    .offer {
+        background-position-x: -520px;
+    }
+
+    .offer__content-wrapper h1 {
+        font-size: 20px;
+    }
+
+    .offer__content-wrapper .offer__advantages-list {
+        font-size: 12px;
+        line-height: 14px;
+    }
+
+    .offer__content-wrapper .offer__buttons {
+        width: 100%;
+    }
+
+    .offer__content-wrapper .offer__buttons .offer__button {
+        margin-right: 10px;
+    }
+
+    .order .order__content-wrapper h2 {
+        margin-top: 0;
+        font-size: 20px;
+    }
+
+    .order .order__content-wrapper .order__description {
+        font-size: 12px;
+    }
+
+    .order .order__content-wrapper .order__step {
+        margin-right: 0;
+        width: 52%;
+    }
+}
+
+@media (max-width: 489.98px) {
+    .footer__pay-systems ul {
+        padding-left: 10%;
+    }
+}
+
+@media (max-width: 399.98px) {
+    .offer {
+        background-position-x: -635px;
+    }
+
+    .offer__content-wrapper h1 {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .offer__content-wrapper .offer__advantages-list {
+        top: 265px;
+    }
+
+    .offer__content-wrapper .offer__buttons {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .offer__content-wrapper .offer__buttons .offer__button {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .order .order__content-wrapper .order__form .order__input-wrapper label,
+    .order .order__content-wrapper .order__form .order__input-wrapper span {
+        font-size: 12px;
+    }
+
+    .footer__content-wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .copywrite {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .footer__pay-systems {
+        width: 100%;
+        &::before {
+            display: none;
+        }
+        &::after {
+            display: none;
+        }
+    }
+
+    .footer__pay-systems ul {
+        flex-direction: row;
+        align-items: flex-start;
+        padding: 0;
+        li {
+            margin-bottom: 5px;
+        }
+    }
+
+    .footer__contacts ul {
+        flex-direction: row;
+        align-items: flex-end;
+    }
+
+    .footer__contacts li {
+        padding-right: 5px;
+    }
+    
+}

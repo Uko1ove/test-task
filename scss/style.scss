@@ -315,6 +315,7 @@ a {
                     scrollbar-color: var(--color-blue) #3D4050;
                     scrollbar-width: thin;
                     transition: all ease 0.3s;
+                    -webkit-appearance: none;
                     
                     &.active {
                         left: 0;
